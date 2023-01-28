@@ -1,5 +1,6 @@
-package com.example.studyspringbootweb.domain;
+package com.example.studyspringbootweb.repository;
 
+import com.example.studyspringbootweb.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
