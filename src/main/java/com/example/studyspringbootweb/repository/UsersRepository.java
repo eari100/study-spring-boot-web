@@ -1,10 +1,10 @@
 package com.example.studyspringbootweb.repository;
 
-import com.example.studyspringbootweb.domain.User;
+import com.example.studyspringbootweb.domain.Users;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long> {
-    User findByEmail(String email);
+public interface UsersRepository extends JpaRepository<Users, Long> {
+    Users findByEmail(String email);
 }
